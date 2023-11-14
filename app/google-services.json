@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271721417956",
+    "project_id": "rizkyilmann-challange5",
+    "storage_bucket": "rizkyilmann-challange5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271721417956:android:fef338a3040678b2eab0f1",
+        "android_client_info": {
+          "package_name": "com.catnip.rizkyilmann_challange4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn36p--HoB7wrj-yViN06MHlwrICBPbvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
