@@ -4,14 +4,11 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import io.mockk.coVerify
 import io.mockk.every
 import io.mockk.impl.annotations.MockK
 import io.mockk.mockkObject
-import io.mockk.mockkStatic
 import org.junit.Assert.*
 import org.junit.Before
-import org.junit.Test
 
 class FirebaseAuthDataSourceImplTest {
 
@@ -27,6 +24,4 @@ class FirebaseAuthDataSourceImplTest {
 
         authDataSource = FirebaseAuthDataSourceImpl(mockFirebaseAuth)
     }
-
-
 }
