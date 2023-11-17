@@ -23,4 +23,3 @@ class MainCoroutineRule(private val dispatcher: TestDispatcher = StandardTestDis
         Dispatchers.resetMain()
     }
 }
-
